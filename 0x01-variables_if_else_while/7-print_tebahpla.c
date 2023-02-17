@@ -5,12 +5,12 @@
  */
 int main(void)
 {
-	int num;
+	char l;
 
-	for (num = 0; num < 10; num++)
-		printf("%d", num);
+	for (l = 'z'; l >= 'a'; l--)
+		putchar(l);
 
-	printf("\n");
+	putchar('\n');
 
 	return (0);
 }
