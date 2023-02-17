@@ -1,14 +1,14 @@
 #include<stdio.h>
 /**
- * main - Entry
+ * main -Entry
  * Return: 0
  */
 int main(void)
 {
-	char alph[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char alph[26] = "abcdefghijklmnopqrstuvwxyz";
 	int a;
 
-	for (a = 0; a <= 52; a++)
+	for (a = 0; a <= 26; a++)
 	{
 		putchar(alph[a]);
 	}
