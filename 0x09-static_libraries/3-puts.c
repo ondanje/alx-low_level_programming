@@ -1,14 +1,16 @@
-#include"main.h"
+#include "main.h"
+#include<stdio.h>
 /**
- * _puts -function that prints a string
- * @s: function argument
- * Return: 0
+ * _puts - function that prints a string
+ * @str: string
+ *
+ * Return: nothing
  */
-void _puts(char *s)
+void _puts(char *str)
 {
-	for (; *s != '\0'; s++)
+	for (; *str != '\0'; str++)
 	{
-		_putchar(*s);
+		_putchar(*str);
 	}
 	_putchar('\n');
 }
