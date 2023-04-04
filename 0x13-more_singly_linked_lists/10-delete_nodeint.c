@@ -1,5 +1,3 @@
-#include<stdio.h>
-#include<stdlib.h>
 #include"lists.h"
 /**
  * delete_nodeint_at_index-func that deletes the node at index of a listint_t
