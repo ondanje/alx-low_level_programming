@@ -6,26 +6,15 @@
  */
 void print_binary(unsigned long int n)
 {
-	unsigned long int val = 1;
-	
-
-	while ((val << 1) <= n)
+	/*base case*/
+	if (n == 0)
 	{
-		val <<= 1;
+		;
 	}
-
-	while (val > 0)
+	if (n > 1)
 	{
-
-		if (n & val)
-		{
-			_putchar('1');
-		}
-		else
-		{
-			_putchar('0');
-		}
-
-		val >>= 1;
+		/*Recursion*/
+		print_binary(n >> 1);
 	}
+	_putchar ((n & 1) + '0');
 }
