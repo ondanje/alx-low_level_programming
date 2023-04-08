@@ -7,6 +7,7 @@
 void print_binary(unsigned long int n)
 {
 	unsigned long int val = 1;
+	
 
 	while ((val << 1) <= n)
 	{
