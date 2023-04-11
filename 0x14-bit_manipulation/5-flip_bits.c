@@ -9,7 +9,7 @@
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 	unsigned int no_of_bits = 0;
-	unsigned int x;
+	unsigned long int x;
 
 /*XOR to find the different bits in n and m*/
 	x = n ^ m;
