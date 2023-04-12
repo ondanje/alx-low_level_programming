@@ -2,6 +2,7 @@
 
 char *allocate_buffer(char *filename);
 void close_descriptor(int fp);
+int main(int argc, char *argv[]);
 
 /**
 * allocate_buffer - allocates memory.
